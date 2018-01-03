@@ -1,0 +1,22 @@
+{
+  "name": "rtmp-fallback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo \"ThePooN\" Denizart <contact@thepoon.fr>",
+  "bin": {
+    "rtmp-fallback": "./index.js"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "get-video-duration": "^0.2.0",
+    "minimist": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThePooN/rtmp-fallback.git"
+  }
+}
