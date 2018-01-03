@@ -23,7 +23,7 @@ Different bitrates and x264 presets should work; different fps may work; differe
 
 ## Install
 
-`npm run -g rtmp-fallback`  
+`npm install -g rtmp-fallback`  
 ```
 Usage: rtmp-fallback rtmpInput fallbackFile rtmpOutput
 fallbackFile MUST be a .ts file
