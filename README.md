@@ -36,4 +36,4 @@ Options:
 ## WARNING
 
 As I said before, it is an experimental tool that I can only recommend advanced users to use in production. It has only been tested on Linux, with `nginx_rtmp_module` with the `wait_video` and `wait_key` parameters enabled.  
-If you're interested in using this tool for your production, throw me a mail or [https://discord.gg/ThePooN](get in touch on Discord).
+If you're interested in using this tool for your production, throw me a mail or [get in touch on Discord](https://discord.gg/ThePooN).
