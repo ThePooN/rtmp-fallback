@@ -29,7 +29,7 @@ if(!noDataDur)
 let noDataTimeout = null;
 let lastNoData = null;
 
-const ffmpegOut = spawn("ffmpeg", ("-f mpegts -i - -c copy -bsf:a aac_adtstoasc -f flv "+process.argv[4]).split(" "));
+const ffmpegOut = spawn("ffmpeg", ("-re -f mpegts -i - -c copy -bsf:a aac_adtstoasc -f flv "+process.argv[4]).split(" "));
 ffmpegOut.on("exit", (code) => { console.log("ffmpegOut exited with code "+code+"! Exiting..."); process.exit(code); });
 
 const ffmpegIn = spawn("ffmpeg", ("-f live_flv -i - -c copy -f mpegts -").split(" "));
